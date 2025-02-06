@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.container_left{
+    width: 10%;
+}
+.container_center{
+    width: 55%;
+    
+}
+.header_logo{
+    display: flex;
+}
+.container_right{
+    width: 35%;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    margin-right: 40px;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    font-size: 20px;
+}
+.sub_title {
+    font-size: 18px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+.title{
+    width: 80%;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+}
+.sub{
+    color: gray;
+    letter-spacing: 1px;
+    width: 60%;
+    
+}
+.item1{
+    margin: 20px 0px;
+}
+.bt1{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+    border: none;
+    border: black 2px solid;
+}
+.bt2{
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    font-size: 14px;
+    border-bottom: black 2px solid;
+}
+.center_button{
+    margin-top: 60px;
+}
+.center_button__sub{
+    margin: 50px 0px;
+    margin-right: 40px; 
+    display: block;
+    float:right;
+}
+.iconnext{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.icon_chevron{
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.divtext{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    
+}
+.container_right-top{
+    display: flex
+}
+
+.picture_right-top{
+    width: 75%;
+}
+.container_right-bottom{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+    height: 100%;
+}
+.right_bottom--content{
+    width: 80%;
+}
+.it--ct{
+    margin: 40px 0px;   
+}
+.content__project{
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.ct__title{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.ct__sub{
+    letter-spacing: 2px;
+    color: gray;
+}
+.buttonsub{
+    display: flex;
+    justify-content: space-between;
+}
+#button__bottom{
+    padding: 8px 10px;
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: rgb(230, 230, 230);
+}
+.icon222{
+    margin-right: 10px;
+}
